@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <!--Links to get the font Imperial Script-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,6 +15,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
    <link href="stylesheet.css" rel="stylesheet">
+
+   <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+/>
+
    
 </head>
 <body>
@@ -30,8 +34,8 @@
                 </ul>
             </div>
             <div class="right">
-                <a href="#contacts"></a>
-                <button id="mode">Contact Me</button>
+                <a href="#contact"><button class="btn">Contact Me</button></a>
+
 
             </div>
         </nav>
@@ -45,7 +49,7 @@
                 <p class="sub-heading"> I love creating websites and bringing ideas to life with code. Always learning, always building, and having fun along the way</p>
                 <br>
                 <div class="intro-button">
-                    <button id="contact" class="btn"> Contact Me</button>
+                    <a href="#contact"><button class="btn">Contact Me</button></a>
                 </div>
             </div>
             <div class="video">
@@ -61,7 +65,7 @@
             <p>I’m a passionate and curious Computer Science student currently pursuing my B.Tech, with a strong interest in cybersecurity and web development. I have a solid foundation in Python and am currently learning Java to strengthen my programming skills further. My curiosity has led me into the world of reverse engineering, where I'm actively exploring how systems work behind the scenes. I’ve also dabbled in cryptography, gaining a basic understanding of encryption techniques and secure communication. On the creative side, I enjoy building websites from scratch using HTML and CSS. I believe in continuous learning and strive to combine creativity with logic to build meaningful digital solutions. This portfolio is a reflection of my journey so far, and I’m excited to keep evolving with every project and opportunity I take on. </p>
             </div>
             <div class="about-img">
-                <img src="images/about.img.png">
+                <img src="images/about.png">
             </div>
             
         </section>
@@ -90,34 +94,67 @@
           </section>
           <!--Project Section-->
           <section id="projects" class="projects-section">
-           <h2> My Projects</h2>
+            <h2> My Projects</h2>
             <div class="project-cont">
-                <div class="project-card">
-                    <img src="C:\Users\Nikitha\OneDrive\Pictures\Screenshots\Screenshot (314).png" alt="Protfolio Image">
-                    <h3>Portfolio Website</h3>
-                    <p>A portfolio to showcase my skills and projects using only HTML and CSS.</p>
-                    <a href="#" target="_blank">View Project</a>
-                </div>
-                <div class="project-card">
-                    <img src="https://via.placeholder.com/300" alt="Project Image">
-                    <h3>Calculator</h3>
-                    <p>A simple calculator using HTML, CSS, and JavaScript.</p>
-                    <a href="#" target="_blank">GitHub Repo</a>
-                </div>
-           </div>
-           
-        </section>
-    
+              <div class="project-card">
+                <img src="images/portfolio.png" alt="Portfolio Image">
+                <h3>Portfolio Website</h3>
+                <p>A personal portfolio website created using only HTML and CSS. It showcases my skills, projects, and contact details with a clean design.</p>
+                <a href="https://nikitha-441.github.io/Portfolio/" target="_blank">View Portfolio</a>
+              </div>
+              <div class="project-card">
+                <img src="images/greeting.png" alt="Greeting Card Image">
+                <h3>Christmas Greeting Card</h3>
+                <p>A festive Christmas greeting card built using pure HTML and CSS. It features a cheerful design and simple layout to spread holiday vibes.</p>
+                <a href="https://nikitha-441.github.io/greeting-card/" target="_blank">View Card</a>
+              </div>
+              <div class="project-card">
+                <img src="images/login.png" alt="Login Page Image">
+                <h3>Login Page Clone</h3>
+                <p>A stylish login page clone designed using only HTML and CSS, focusing on layout structure and user interface aesthetics.</p>
+                <a href="https://nikitha-441.github.io/LoginPage-/" target="_blank">View Login Page</a>
+              </div>
+            </div>
+          </section>
+          
+        <!--Contact Section-->
         <section id="contact" class="contact-section">
-            <h2>Contact Me</h2>
-            <p>Email: nikitha@example.com</p>
-            <p>GitHub: <a href="https://github.com/nikitha" target="_blank">github.com/nikitha</a></p>
-        </section>
-    
-        <footer>
-            <p>© 2025 Nikitha | All rights reserved.</p>
-            <a href="about.html">More About Me</a>
-        </footer>
+            <div class="contact-container">
+              <h3>Get in Touch</h3>
+              <p>Want to collaborate, chat about tech, or just say hi? Feel free to reach out via email or socials below.</p>
+          
+              <div class="contact-info">
+                <p>Email: <a href="mailto:nikithaps10a@email.com">nikithaps10a@email.com</a></p>
+                <div class="social-links">
+                  <a href="https://github.com/Nikitha-441" target="_blank">GitHub</a>
+                  <a href="https://www.linkedin.com/in/nikitha-p-s-b5756831b/" target="_blank">LinkedIn</a>
+                  <a href="https://x.com/nikitha74745" target="_blank">Twitter</a>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!--Footer Section-->
+          <footer class="footer">
+            <div class="footer-content">
+              <p class="tagline">Building things with passion & curiosity.</p>
+              <div class="social-icons">
+                <a href="https://github.com/Nikitha-441" target="_blank">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a href="https://linkedin.com/in/nikitha-p-s-b5756831b/" target="_blank" aria-label="LinkedIn">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://x.com/nikitha74745" target="_blank" aria-label="Twitter">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </div>
+          
+              <a href="#home" class="back-to-top">↑ Back to Top</a>
+          
+              <p class="copyright">© 2025 Nikitha</p>
+            </div>
+          </footer>
+          
           
           
           
